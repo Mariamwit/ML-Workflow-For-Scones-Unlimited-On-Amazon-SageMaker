@@ -35,7 +35,7 @@ Each input is validated using a while loop.:  <br/>
 <br />
 <br />
 The program uses a do loop to repeat the process as long as the user wishes. : <br/>
-<img src="https://imgur.com/Cj0awCL.png" height="80%" width="80%" alt="steps"/>
+<img src="https://imgur.com/Cj0awCL.png" height="50%" width="50%" alt="steps"/>
 <br />
 <br />
 Sample program run:  <br/>
