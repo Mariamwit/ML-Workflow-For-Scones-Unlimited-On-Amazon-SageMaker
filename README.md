@@ -32,8 +32,7 @@ In this project,  AWS Sagemaker is used to build an image classification model t
 
 - <b> AWS Sagemaker Studio </b>
 - <b> Lambda Functions </b>
-- <b> Apache </b>
-- <b> Apache </b> 
+
 
 <!--
  ```diff
