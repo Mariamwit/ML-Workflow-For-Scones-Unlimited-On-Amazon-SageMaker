@@ -1,46 +1,39 @@
-# Resistance
+# ML Workflow For Scones Unlimited On Amazon SageMaker
 
-<h1> Calculating Resistance in Ohms and Kilo-ohms Using Color Bands  </h1>
+<h1> Build a ML Workflow For Scones Unlimited On Amazon SageMaker  </h1>
 
 
 <h2>Description</h2>
-A resistor is a circuit-device designed to have a specific resistance value between its
-ends. Resistors are color-coded with 3 bands. The first two band colors represent digits and the third
-band represents the multiplier. The resistance is calculated by multiplying the first digit by 10, adding the 2nd digit, and applying the
-multiplier. So if the first band is red, the second band is brown, and the third band is yellow, then the
-first digit is 2, the second digit is 1, and the multiplier is 104. The resistance value is then calculated
-as (2 * 10 + 1) * 104.  
+
+In this project, an image classification model is built that can automatically detect which kind of vehicle delivery drivers have, in order to route them to the correct loading bay and orders. Assigning delivery professionals who have a bicycle to nearby orders and giving motorcyclists orders that are farther can help Scones Unlimited optimize their operations.
+The goal is to ship a scalable and safe model. 
+
+In this project,  AWS Sagemaker is used to build an image classification model that can tell bicycles apart from motorcycles. The model is deplyoed using AWS Lambda functions to build supporting services, and AWS Step Functions to compose the model and services into an event-driven application.
 <br />
+
+
+<h2> Project Steps Overview </h2>
+
+- <b> Step 1: Data staging </b> 
+- <b> Step 2: Model training and deployment </b>
+- <b> Step 3: Lambdas and step function workflow </b>
+- <b> Step 4: Testing and evaluation </b>
+- <b> Step 5: Optional challenge </b>
+- <b> Step 6: Cleanup cloud resources </b>
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b> Java</b> 
-- <b>Netbeans </b>
+- <b> Python </b> 
+- <b> Jupyter Notebook </b>
+- <b> HTML </b> 
 
 <h2>Environments Used </h2>
 
+- <b> AWS Sagemaker Studio </b>
+- <b> Lambda Functions </b>
+- <b> Apache </b>
 - <b> Apache </b> 
-
-<h2>Program walk-through:</h2>
-
-<p align="center">
-The program asks the user to enter the colors of the 3 bands, then calculates the resistance in
-ohms and kilo-ohms.: <br/>
-<img src="https://imgur.com/ma3aYMA.png" height="50%" width="50%" alt="steps"/>
-<br />
-<br />
-Each input is validated using a while loop.:  <br/>
-<img src="https://imgur.com/frKn2Cy.png" height="50%" width="50%" alt="steps"/>
-<br />
-<br />
-The program uses a do loop to repeat the process as long as the user wishes. : <br/>
-<img src="https://imgur.com/Cj0awCL.png" height="50%" width="50%" alt="steps"/>
-<br />
-<br />
-Sample program run:  <br/>
-<img src="https://imgur.com/4iwSC4J.png" height="50%" width="50%" alt="steps"/>
-<br />
 
 <!--
  ```diff
